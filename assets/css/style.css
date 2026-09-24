@@ -200,18 +200,26 @@ ol {
   margin: 0 0.4rem;
 }
 
+.home-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 3px - 5rem);
+  padding: 0 1.5rem;
+}
+
 .home-hero {
   text-align: center;
-  padding: 3rem 0 2rem;
 }
 
 .home-hero .brand img {
-  height: 72px;
+  height: 220px;
+  width: auto;
 }
 
 .home-hero p.lede {
-  max-width: 46ch;
-  margin: 1rem auto 0;
+  max-width: 40ch;
+  margin: 1.5rem auto 0;
 }
 
 .card-list {
@@ -262,5 +270,9 @@ footer nav a {
 
   h1 {
     font-size: 1.6rem;
+  }
+
+  .home-hero .brand img {
+    height: 120px;
   }
 }
