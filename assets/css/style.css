@@ -213,13 +213,8 @@ ol {
 }
 
 .home-hero .brand img {
-  height: 220px;
-  width: auto;
-}
-
-.home-hero p.lede {
-  max-width: 40ch;
-  margin: 1.5rem auto 0;
+  width: min(85vw, 820px);
+  height: auto;
 }
 
 .card-list {
@@ -270,9 +265,5 @@ footer nav a {
 
   h1 {
     font-size: 1.6rem;
-  }
-
-  .home-hero .brand img {
-    height: 120px;
   }
 }
